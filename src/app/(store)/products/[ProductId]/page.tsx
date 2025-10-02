@@ -52,7 +52,7 @@ export default function ProductDetails({ params: { ProductId } }: ProductDetails
         {/* Thumbnails */}
         <div className="flex flex-col gap-3">
           {images.map((img, i) => (
-            <Image
+             <Image 
               key={i}
               src={img}
               alt={`Thumbnail ${i + 1}`}
@@ -65,7 +65,7 @@ export default function ProductDetails({ params: { ProductId } }: ProductDetails
 
         {/* Main Image */}
         <div className="flex-1">
-          <Image
+           <Image 
             src={mainImage}
             alt={product.title}
             width={600}

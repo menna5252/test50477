@@ -31,7 +31,7 @@ export default function CategoriesSwiper( {categories }: {categories: ICategory[
     <Swiper {...swiperOptions} className="CategoriesSwiper">
       {categories.map((cat) => (
         <SwiperSlide key={cat._id} className="mb-6">
-          <Image src={cat.image} alt={cat.name} width={270} height={260} className="w-full object-contain h-[15.5rem]" />
+           <Image  src={cat.image} alt={cat.name} width={270} height={260} className="w-full object-contain h-[15.5rem]" />
           <h3 className="text-center">{cat.name}</h3>
         </SwiperSlide>
       ))}

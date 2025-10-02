@@ -31,7 +31,7 @@ export default async function brandsPage() {
 
 <Link href={`/brands/${brand._id}`}>
       <div className="relative flex justify-center items-center h-[200px]">
-        <Image
+         <Image fill
           src={brand.image}
           alt={brand.name}
           className="h-full object-contain"

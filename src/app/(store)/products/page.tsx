@@ -28,7 +28,7 @@ export default async function ProductsPage() {
               >
                 <Link href={`/products/${product._id}`}>
                   <div className="relative flex justify-center items-center h-[200px] cursor-pointer">
-                    <Image
+                     <Image 
                       src={product.imageCover}
                       alt={product.title}
                       className="h-full object-contain"

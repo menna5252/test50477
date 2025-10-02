@@ -39,7 +39,7 @@ export default async function ProductsSection() {
 
 <Link href={`/products/${product._id}`}>
       <div className="relative flex justify-center items-center h-[200px]">
-        <Image
+         <Image fill
           src={product.imageCover}
           alt={product.title}
           className="h-full object-contain"

@@ -16,8 +16,8 @@ export async function getUserToken() {
     token: encodedToken,
     secret: process.env.AUTH_SECRET!,
   });
-
-  return decodedToken?.token ?? null;
+console.log('decodedToken',decodedToken)
+  return decodedToken?.accessToken ?? null;
 }
 
 export async function getUserId() {

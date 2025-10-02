@@ -178,7 +178,7 @@ export default function CheckoutPage() {
           {cartDetails.data.products.map((product) => (
             <div key={product._id} className="flex justify-between items-center">
               <span className="flex items-center gap-3">
-                <Image
+                 <Image fill
                   src={product.product.imageCover}
                   alt={product.product.title}
                   width={54}

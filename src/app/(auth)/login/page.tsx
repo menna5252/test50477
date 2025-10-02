@@ -79,7 +79,7 @@ resolver: zodResolver(loginFormSchema),
     <div className="flex min-h-screen items-center justify-center bg-gray-50">
       <div className="grid w-full max-w-6xl grid-cols-1 md:grid-cols-2 bg-white rounded-xl shadow-xl overflow-hidden">
         <div className="hidden md:flex items-center justify-center bg-gray-100">
-          <Image
+           <Image width={100} height={300}
             src={pic1.src}
             alt="Login illustration"
             className="w-full h-full object-contain p-8"

@@ -87,7 +87,7 @@ export default function RegisterPage() {
       <div className="grid w-full max-w-6xl grid-cols-1 md:grid-cols-2 bg-white rounded-xl shadow-xl overflow-hidden">
         {/* Left side - image */}
         <div className="hidden md:flex items-center justify-center bg-gray-100">
-          <Image
+           <Image fill 
             src={pic1.src}
             alt="Register illustration"
             className="w-full h-full object-contain p-8"

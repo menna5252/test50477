@@ -32,7 +32,7 @@ export default async function WishListPage() {
               >
                 <Link href={`/products/${product._id}`}>
                   <div className="relative flex justify-center items-center h-[200px] cursor-pointer">
-                    <Image
+                     <Image fill
                       src={product.imageCover}
                       alt={product.title}
                       className="h-full object-contain"

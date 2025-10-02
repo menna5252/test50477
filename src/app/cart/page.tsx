@@ -79,7 +79,7 @@ async function  removeProductFromCart(productId:string) {
             <TableRow key={product._id}>
       <TableCell className="font-medium">
         <div className="flex items-center gap-5">
-          <Image
+           <Image 
             src={product.product.imageCover}
             alt={product.product.title}
             width={54}

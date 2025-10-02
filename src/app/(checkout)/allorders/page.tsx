@@ -39,7 +39,7 @@ export default async function OrdersPage() {
             <ul className="space-y-2">
               {order.cartItems.map((item) => (
                 <li key={item.product._id} className="flex gap-4 items-center">
-                  <Image
+                   <Image fill
                     src={item.product.imageCover}
                     alt={item.product.title}
                     className="w-16 h-16 object-cover rounded"

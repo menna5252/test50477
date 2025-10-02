@@ -32,7 +32,7 @@ export default async function categioresPage() {
 
 <Link href={`/categories/${category._id}`}>
       <div className="relative flex justify-center items-center h-[200px]">
-        <Image
+         <Image fill
           src={category.image}
           alt={category.name}
           className="h-full object-contain"

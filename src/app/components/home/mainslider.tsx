@@ -50,7 +50,7 @@ export default function Mainslider() {
         {
             images.map((img, index) => (
                 <SwiperSlide key={index} className="">
-                    <Image src={img.path} alt={img.label} width={892} height={344} />
+                     <Image  src={img.path} alt={img.label} width={892} height={344} />
                 </SwiperSlide>
             ) )
         }
